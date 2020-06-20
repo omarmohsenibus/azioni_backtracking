@@ -1,3 +1,11 @@
+/**
+ * @file: azioni.h
+ * @brief: 
+ * @name: Omar Mohseni
+ * @date: 20 jun 2020
+ * 
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #if !defined AZIONI_H
 #define AZIONI_H
@@ -23,5 +31,6 @@ typedef struct {
 extern void MassimizzaGuadagnoAzioni(azione *azioni, size_t n_azioni, float budget);
 extern void WriteAzioniBin(FILE *f, azione *a, size_t n);
 extern azione *ReadAzioniBin(FILE *f, size_t *n);
+
 #endif //AZIONI_H
 
